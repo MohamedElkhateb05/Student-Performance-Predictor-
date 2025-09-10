@@ -26,7 +26,9 @@ from sklearn.metrics import r2_score, mean_squared_error ,mean_absolute_error
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
-
+import plotly.express as px
+from ipywidgets import interact, Dropdown
+import missingno as msno
 
 df=pd.read_csv("/kaggle/input/student-performance-factors/StudentPerformanceFactors.csv")
 df2=df
@@ -40,7 +42,7 @@ df.info()
 print(f"Dataset shape: {df.shape}")
 #print(f"Missing values:\n{df.isnull().sum()}")
 
-import missingno as msno
+
 msno.matrix(df)  
 
 (df.isnull().sum() / len(df)) * 100
@@ -67,8 +69,7 @@ print(df['Distance_from_Home'].unique())
 df.isnull().sum()
 
 
-import plotly.express as px
-from ipywidgets import interact, Dropdown
+
 
 
 print("DataFrame dtypes:")
