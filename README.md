@@ -57,10 +57,10 @@ This project analyzes the relationship between student characteristics and their
 ## 📈 Results
 
 ### Best Performing Model
-- **Algorithm**: Polynomial Regression (Degree 2)
-- **R² Score**: 0.89
-- **MAE**: 2.34 points
-- **RMSE**: 3.12 points
+- **Algorithm**: Linear Regression (Degree 1)
+- **R² Score**: 0.7699
+- **MAE**: 0.45 points
+- **RMSE**: 1.80 points
 
 ### Key Insights
 - Previous academic scores are the strongest predictor of exam performance
@@ -72,5 +72,5 @@ This project analyzes the relationship between student characteristics and their
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/student-performance-prediction.git
-   cd student-performance-prediction
+   git clone https://github.comMohamedElkhateb05/Student-Performance-Predictor-.git
+   cd student-performance-predictor-
