@@ -72,5 +72,5 @@ This project analyzes the relationship between student characteristics and their
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.comMohamedElkhateb05/Student-Performance-Predictor-.git
+   git clone https://github.com/MohamedElkhateb05/Student-Performance-Predictor-.git
    cd student-performance-predictor-
